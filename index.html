@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>My Home Page</title> <!-- 设置网页标题为My Home Page -->
+	<meta charset="utf-8" /> <!-- 设置网页字符编码为utf-8 -->
+	<meta name="description" content="Location : 127.0.0.1:1337/ismailtasdelen & U1FgpxieKrOnly5GJg3TiA=="> <!-- 设置网页描述 -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- 设置网页内容类型和字符编码 -->
+	<meta name="author" content="Zhou">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 设置网页视口的宽度和缩放比例 -->
+	<!-- 如果浏览器版本低于IE8，引入html5shiv.js脚本 -->
+	<link rel="stylesheet" href="assets/css/main.css" /> <!-- 引入main.css样式表 -->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]--> <!-- 如果浏览器版本低于IE8，引入ie8.css样式表 -->
+	<link rel="shortcut icon" href="assets/css/images/icon.ico"> <!-- 设置网页图标 -->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/images/icon.ico" /><![endif]--> <!-- 如果浏览器版本低于IE9，引入icon.ico图标 -->
+	<link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- 引入font-awesome图标库 -->
+</head>
+<body class="Loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+			<!-- Header -->
+			<header id="header">
+				<h1>My Page</h1> <!-- 网页标题 -->
+				<p>Digital Media Technology  •  CCNU </p> <!-- 网页简介 -->
+				<p>
+					“有一天，女士们会带着她们的电脑去公园散步，并互相告诉对方，“我的小电脑今天早上说了一件很有趣的事”</p> <!-- 网页引言 -->
+				<p>——艾伦图灵</p> <!-- 网页引言作者 -->
+				<nav>
+					<ul>
+						<li><a href="home/home.html" class="icon fa-home" target="_blank"><span
+							class="label">WeChat</span></a></li> <!-- 首页链接 -->
+						<li><a href="http://wpa.qq.com/msgrd?v=3&uin=3274911246&site=qq&menu=yes" class="icon fa-qq"
+								target="_blank"><span class="label">QQ</span></a></li> <!-- QQ链接 -->
+						<li><a href="https://space.bilibili.com/181240420"
+								class="icon fa-tv" target="_blank"><span class="label">bilibili</span></a></li> <!-- bilibili链接 -->
+						<li><a href="https://github.com/shanzuiyixing" class="icon fa-github" target="_blank"><span
+									class="label">Github</span></a></li> <!-- Github链接 -->
+						<li><a href="mailto:3274911246@qq.com" class="icon fa-envelope-o" target="_blank"><span
+									class="label">Email</span></a></li> <!-- 邮箱链接 -->
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">©Design by <a href="https://www.ccnu.edu.cn"> Shengjie Zhou CCNU </a>.</span>
+			</footer>
+
+		</div>
+	</div>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> <!-- 如果浏览器版本低于IE8，引入respond.min.js脚本 -->
+	<script>
+		window.onload = function () {
+			document.body.className = ''; // 网页加载完成后，移除body的类名
+		}
+		window.ontouchmove = function () {
+			return false; // 禁止网页在移动设备上滑动
+		}
+		window.onorientationchange = function () {
+			document.body.scrollTop = 0; // 网页在移动设备上旋转时，滚动到顶部
+		}
+	</script>
+</body>
+</html>
